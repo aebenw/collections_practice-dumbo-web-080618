@@ -41,7 +41,7 @@ end
   
 def add_s(array)
   
-  new arr = []
+  new_arr = []
   array.each do |word|
     if !(word = array[2])
       new_word = word + "s"
