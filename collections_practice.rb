@@ -40,12 +40,15 @@ def sum_array(array)
 end
   
 def add_s(array)
-  array.each do |word|
+  
+  new arr = []
+  new_arr = array.each do |word|
     if !(word = array[2])
       word += "s"
       p word
     end
   end
+  new_arr
 end
       
   
