@@ -42,7 +42,7 @@ end
 def add_s(array)
   array.each do |word|
     if !(word = array[2])
-      word +"s"
+      word += "s"
       p word
     end
   end
