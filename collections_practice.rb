@@ -43,8 +43,8 @@ def add_s(array)
   
   new_arr = []
   array.each do |word|
-    if !(word = array[2])
-      new_word = word << "s"
+    if !(word == array[2])
+      new_word = word + "s"
       new_arr << new_word
     end
   end
